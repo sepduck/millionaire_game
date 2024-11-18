@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: MillionaireGame_Backend
+  datasource:
+    url: jdbc:postgresql://localhost:5432/millionaire_game
+    username: postgres
+    password: 2511
+    driver-class-name: org.postgresql.Driver
+server:
+  port: 8111
